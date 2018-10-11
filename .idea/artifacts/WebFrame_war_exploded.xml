@@ -2,7 +2,7 @@
   <artifact type="exploded-war" build-on-make="true" name="WebFrame:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/WebFrame_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="WebFrame/web/Web" />
+      <element id="javaee-facet-resources" facet="WebFrame/web/WebApp" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="WebFrame" />
