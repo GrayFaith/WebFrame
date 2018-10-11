@@ -1,18 +1,16 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" build-on-make="true" name="WebFrame:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/WebFrame_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/target/WebFrame-1.0-SNAPSHOT</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="WebFrame/web/WebApp" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="WebFrame" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="application" name="groovy-3.0.0-alpha-3" />
-          <element id="library" level="application" name="spring-security-aspects-4.2.8.RELEASE" />
-          <element id="library" level="application" name="Spring4.3" />
-        </element>
       </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/WebFrame-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="WebFrame/web/WebApp" />
     </root>
   </artifact>
 </component>
