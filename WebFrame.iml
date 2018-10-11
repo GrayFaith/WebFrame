@@ -16,6 +16,13 @@
         </sourceRoots>
       </configuration>
     </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="SpringMVC" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/SpringConfig/SpringMVC.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -32,5 +39,8 @@
     <orderEntry type="library" name="groovy-3.0.0-alpha-3" level="application" />
     <orderEntry type="library" name="Spring4.3" level="application" />
     <orderEntry type="library" name="spring-security-aspects-4.2.8.RELEASE" level="application" />
+    <orderEntry type="library" name="Spring4.3" level="application" />
+    <orderEntry type="library" name="spring-security-aspects-4.2.8.RELEASE" level="application" />
+    <orderEntry type="library" name="Spring4.3" level="application" />
   </component>
 </module>
