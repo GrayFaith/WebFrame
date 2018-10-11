@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>这是个使用模态框组合Button和Input的案例</title>
+	<meta charset="UTF-8"/>
+	<!--告诉浏览器默认使用新视图加载技术-->
+	<meta name='viewport' content='width=device-width,initial-scale=1'/>
+	<!--Import CSS-->
+	<link rel="stylesheet"
+		  href="../../../Commons/CSS/BootStrap/BootStrap4.0.0/bootstrap.min.css"/>
+	<link rel="stylesheet"
+		  href="../../../Commons/CSS/BootStrap/BootStrap4.0.0/bootstrap-reboot.min.css"/>
+	<!--<link rel="stylesheet" href="../../../../assets/css/ace.min.css"/>-->
+	<!--Import JavaScript-->
+	<script type="text/javascript" src="../../../Commons/JavaScript/Jquery/Jquery1.12.4/Jquery1.12.4.js"></script>
+	<script type="text/javascript"
+			src="../../../Commons/JavaScript/BootStrap/BootStrap4.0.0/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="../Form/Input/BootStrapTypeInput.js"></script>
+	<script type="text/javascript" src="../Form/Button/BootStrapTypeButton.js"></script>
+	<script type="text/javascript" src="ModalTemplate.js"></script>
+
+	<script type="text/javascript">
+        $(function () {
+            initModal('lg');
+
+            var bodyArr = new Array();
+            bodyArr[0] = newBootStrapInput('LoginName', 'id1', 'text', '登录ID');
+            bodyArr[1] = newBootStrapInput('UserName', 'id2', 'text', '用户名');
+            bodyArr[2] = newBootStrapInput('OrgCode', 'id3', 'text', '机构代码');
+            bodyArr[3] = newBootStrapInput('RhUserNameNew', 'text', 'id4', '人行用户名');
+            bodyArr[4] = newBootStrapInput('RhPassWordNew', 'id5', 'password', '人行密码');
+
+            var footerArr = new Array();
+            footerArr[0] = newBootStrapButton('secondary', 'button', '喵喵喵');
+            footerArr[1] = newOutLineBootStrapButton('success', 'button', '呜呜呜');
+
+            flushModal('喵喵喵?', bodyArr, footerArr);
+            toggleModal();
+        });
+	</script>
+</head>
+<body>
+
+</body>
+</html>

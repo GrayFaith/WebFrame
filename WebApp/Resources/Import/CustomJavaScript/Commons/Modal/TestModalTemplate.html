@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+	<title>ModalTemplate</title>
+	<!--1.引入CSS文件-->
+	<link rel="stylesheet" href="../../../Commons/CSS/BootStrap/BootStrap4.0.0/bootstrap.min.css">
+	<link rel="stylesheet" href="../../../Commons/CSS/BootStrap/BootStrap4.0.0/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="../../../Commons/CSS/BootStrap/BootStrap4.0.0/bootstrap-reboot.min.css">
+	<!--2.引入JS文件-->
+	<!--2.1优先引入Jquery的js文件(必须优先加载,多数JS依赖于Jquery)-->
+	<script type="text/javascript" src="../../../Commons/JavaScript/Jquery/Jquery3.3.1/jquery-3.3.1.min.js"></script>
+	<!--2.2引入BootStrap的js文件-->
+	<script type="text/javascript"
+			src="../../../Commons/JavaScript/BootStrap/BootStrap4.0.0/bootstrap.min.js"></script>
+	<!--2.3引入自定义的模态框模板的JS文件-->
+	<script type="text/javascript" src="ModalTemplate.js"></script>
+	<!--3.调用Modal模板-->
+	<script type="text/javascript">
+        $(function () {
+            /*3.1初始化模板*/
+            initModal('lg');
+            /*3.2刷新模板数据*/
+            var title = '我是标题';
+            var body = '<label for="body1">请填写:</label>' +
+                '<input type="text" class="form-control" id="body1" placeHolder="请填写XXX"  data-toggle="tooltip" data-placement="right" title="字母数字下划线"/>';
+            var footer =
+                '<button type="button" class="btn btn-info" data-dismiss="modal">关闭</button>' +
+                '<button type="button" class="btn btn-success">提交</button>';
+            flushModal(title, body, footer);
+            /*3.3显示/隐藏模板*/
+            $('#modalToggle').click(function () {
+                toggleModal();
+            });
+        });
+	</script>
+</head>
+<body>
+<button id="modalToggle" type="button" class="btn btn-primary">显示/隐藏</button>
+</body>
+</html>

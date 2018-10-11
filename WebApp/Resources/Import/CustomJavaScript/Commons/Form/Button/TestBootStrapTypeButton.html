@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测试BootStrap风格的按钮</title>
+	<meta charset="UTF-8">
+	<!--告诉浏览器默认使用新视图加载技术-->
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+	<!--Import CSS-->
+	<link rel="stylesheet"
+		  href="../../../../Commons/CSS/BootStrap/BootStrap4.0.0/bootstrap.min.css">
+	<link rel="stylesheet"
+		  href="../../../../Commons/CSS/BootStrap/BootStrap4.0.0/bootstrap-reboot.min.css">
+	<!--<link rel="stylesheet" href="../../../../../assets/css/ace.min.css"/>-->
+	<!--Import JavaScript-->
+	<script type="text/javascript" src="../../../../Commons/JavaScript/Jquery/Jquery1.12.4/Jquery1.12.4.js"></script>
+	<script type="text/javascript"
+			src="../../../../Commons/JavaScript/BootStrap/BootStrap4.0.0/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="../Button/BootStrapTypeButton.js"></script>
+	<script type="text/javascript">
+        $(function () {
+            var body = $(document.body);
+            body.append(newBootStrapButton('primary', 'button', '喵喵喵'));
+            body.append(newBootStrapButton('secondary', 'button', '呜呜呜'));
+            body.append(newBootStrapButton('success', 'button', '喵喵喵'));
+            body.append(newBootStrapButton('danger', 'button', '呜呜呜'));
+            body.append(newBootStrapButton('warning', 'button', '喵喵喵'));
+            body.append(newBootStrapButton('info', 'button', '呜呜呜'));
+            body.append(newBootStrapButton('light', 'button', '喵喵喵'));
+            body.append(newBootStrapButton('dark', 'button', '呜呜呜'));
+            body.append(newBootStrapButton('link', 'button', '喵喵喵'));
+            body.append('<br/>');
+            body.append(newOutLineBootStrapButton('primary', 'button', '喵喵喵'));
+            body.append(newOutLineBootStrapButton('secondary', 'button', '呜呜呜'));
+            body.append(newOutLineBootStrapButton('success', 'button', '喵喵喵'));
+            body.append(newOutLineBootStrapButton('danger', 'button', '呜呜呜'));
+            body.append(newOutLineBootStrapButton('warning', 'button', '喵喵喵'));
+            body.append(newOutLineBootStrapButton('info', 'button', '呜呜呜'));
+            body.append(newOutLineBootStrapButton('light', 'button', '喵喵喵'));
+            body.append(newOutLineBootStrapButton('dark', 'button', '呜呜呜'));
+            body.append(newOutLineBootStrapButton('link', 'button', '喵喵喵'));
+        });
+	</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>这是个使用案例</title>
+	<meta charset="UTF-8">
+	<!--告诉浏览器默认使用新视图加载技术-->
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+	<!--Import CSS-->
+	<link rel="stylesheet"
+		  href="../../../../Commons/CSS/BootStrap/BootStrap4.0.0/bootstrap.min.css">
+	<link rel="stylesheet"
+		  href="../../../../Commons/CSS/BootStrap/BootStrap4.0.0/bootstrap-reboot.min.css">
+	<!--<link rel="stylesheet" href="../../../../../assets/css/ace.min.css"/>-->
+	<!--Import JavaScript-->
+	<script type="text/javascript" src="../../../../Commons/JavaScript/Jquery/Jquery1.12.4/Jquery1.12.4.js"></script>
+	<script type="text/javascript"
+			src="../../../../Commons/JavaScript/BootStrap/BootStrap4.0.0/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="BootStrapTypeInput.js"></script>
+	<script type="text/javascript">
+        $(function () {
+            $('#div').append(newBootStrapInput('LoginName', 'id1', '登录ID'))
+                .append(newBootStrapInput('UserName', 'id2', '用户名'))
+                .append(newBootStrapInput('OrgCode', 'id3', '机构代码'))
+                .append(newBootStrapInput('RhUserNameNew', 'id4', '人行用户名'))
+                .append(newBootStrapInput('RhPassWordNew', 'id5', '人行密码'));
+        });
+	</script>
+</head>
+<body>
+<div id="div" style="width: 500px;border: red solid 1px;">
+	<h4 style="text-align: center;">喵喵喵?</h4>
+</div>
+</body>
+</html>
