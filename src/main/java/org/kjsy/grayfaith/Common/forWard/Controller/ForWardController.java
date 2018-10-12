@@ -1,26 +1,34 @@
 package org.kjsy.grayfaith.Common.forWard.Controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+@Slf4j
 @Controller("forWardController")
 public class ForWardController {
 
-    @RequestMapping("/forward/**")
+    @RequestMapping("/forward/**.do")
     public String forward(HttpServletRequest request, HttpSession session) {
         String method = request.getMethod();
+        StringBuilder logStr = new StringBuilder();
         if ("POST".equals(method)) {
-            // TODO Log.DEBUG("==>POSTRequest");
+            logStr.append("==>POSTRequest");
         } else if ("GET".equals(method)) {
-            // TODO Log.DEBUG("==>GETRequest");
+            logStr.append("==>GETRequest");
         } else {
-            // TODO Log.DEBUG("==>" + method + "Request");
+            logStr.append("==>");
+            logStr.append(method);
+            logStr.append("Request");
         }
-        // TODO log.debug("当前请求的基地址:{}",request.getContextPath());
-        // TODO log.info("==> uri:{}",request.getRequestURI());
+        logStr.append(",请求基地址:");
+        logStr.append(request.getContextPath());
+        logStr.append(",URI:");
+        logStr.append(request.getRequestURI());
+
         String ctx = request.getContextPath() + "/forward/";
         String uri = request.getRequestURI();
 
@@ -28,8 +36,10 @@ public class ForWardController {
         if (path.lastIndexOf(".") > 0) {
             path = path.substring(0, path.lastIndexOf("."));
         }
+        logStr.append(",访问路径:");
+        logStr.append(path);
 
-        // TODO log.debug("访问路径:{}",path);
+        log.info(logStr.toString());
         return path;
     }
 }

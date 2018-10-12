@@ -20,31 +20,34 @@
 
     <context:annotation-config/>
 
-    <aop:aspectj-autoproxy proxy-target-class="true"/>
-
-    <!--JSP解析器-->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="contentType" value="/WEB-INF/JSP/"/>
-        <property name="prefix" value="/WEB-INF/JSP/"/>
-        <property name="suffix" value=".jsp"/>
-        <!--JSP解析器优先级-->
-        <property name="order" value="0"/>
-    </bean>
     <!--HTML解析器-->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="contentType" value="text/html"/>
+    <bean id="htmlViewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.kjsy.grayfaith.Common.forWard.ViewResolver.HTMLResourceView"/>
+        <property name="order" value="0"/>
+        <property name="contentType" value="text/html;charset=UTF-8"/>
         <property name="prefix" value="/WEB-INF/HTML/"/>
         <property name="suffix" value=".html"/>
-        <!--HTML解析器优先级-->
+    </bean>
+    <!--JSP解析器-->
+    <bean id="jspViewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
         <property name="order" value="1"/>
+        <property name="contentType" value="text/html;charset=UTF-8"/>
+        <!-- 前缀 -->
+        <property name="prefix" value="/WEB-INF/JSP/"/>
+        <!-- 后缀 -->
+        <property name="suffix" value=".jsp"/>
     </bean>
 
-    <bean id="multipartResolver"
-          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-        <property name="defaultEncoding" value="UTF-8"/>
-        <!-- 以字节为单位的最大上传文件的大小 -->
-        <property name="maxUploadSize" value="204800000"/>
-    </bean>
+    <!--
+        <bean id="multipartResolver"
+              class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+            <property name="defaultEncoding" value="UTF-8"/>
+            &lt;!&ndash; 以字节为单位的最大上传文件的大小 &ndash;&gt;
+            <property name="maxUploadSize" value="204800000"/>
+        </bean>-->
 
     <!--<bean id="reportViewResolver" class="org.springframework.web.servlet.view.XmlViewResolver">
         <property name="order" value="1"/>
