@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TomCat9.0.12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+  <configuration default="false" name="TomCat9.0.12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="JDK8">
     <option name="BROWSER_ID" value="a5044238-1ab7-480f-a647-2c1ec8de6bcd" />
     <option name="UPDATING_POLICY" value="redeploy-artifacts" />
     <deployment>
@@ -12,7 +12,7 @@
     <server-settings>
       <option name="BASE_DIRECTORY_NAME" value="Unnamed_WebFrame" />
       <option name="HTTP_PORT" value="8082" />
-      <option name="JNDI_PORT" value="1100" />
+      <option name="JNDI_PORT" value="1102" />
     </server-settings>
     <predefined_log_file id="Tomcat" enabled="true" />
     <predefined_log_file id="Tomcat Catalina" enabled="true" />

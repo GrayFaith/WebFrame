@@ -19,7 +19,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.18.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.18.RELEASE" />
           <element id="library" level="application" name="spring-security-aspects-4.2.8.RELEASE" />
-          <element id="library" level="application" name="Spring4.3" />
+          <element id="library" level="application" name="Spring-4.3.18.RELEASE" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
         </element>
