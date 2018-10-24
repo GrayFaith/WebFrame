@@ -14,10 +14,18 @@
 
     <!--输出到文件-->
     <appender name="LogFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="ch.qos.logback.classic.html.HTMLLayout">
+                <pattern>
+                    %thread%d{HH:mm:ss.SSS}%-5level%logger%method%msg
+                </pattern>
+            </layout>
+        </encoder>
+
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!--按天分文件夹存放,并压缩-->
             <fileNamePattern>
-                D:/LogBack/Log/%d{YYYY-MM-dd}/log.%i.txt
+                D:/LogBack/Log/%d{YYYY-MM-dd}/log.%i.html
             </fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <!--每个文件的最大值5MB,超过则编号,生成新文件-->
@@ -26,11 +34,6 @@
             <!--例如,假设每天滚动,且maxHistory是6,则只保留最近6月的归档文件,删除之前的文件-->
             <maxHistory>2</maxHistory>
         </rollingPolicy>
-        <encoder>
-            <pattern>
-                [%thread]%d{HH:mm:ss.SSS}-%highlight(%-5level) %logger%cyan(@%method):%highlight(%msg) %n
-            </pattern>
-        </encoder>
     </appender>
 
     <root level="INFO">
