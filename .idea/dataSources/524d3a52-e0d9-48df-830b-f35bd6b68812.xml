@@ -5914,7 +5914,7 @@ TENANT_ID_</ColNames>
       <Comment>主键</Comment>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="1040" parent="72" name="TYPE_CODE">
       <Position>2</Position>
@@ -6663,7 +6663,7 @@ TENANT_ID_</ColNames>
       <Comment>主键</Comment>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="1180" parent="82" name="ROOM_ID">
       <Position>2</Position>
@@ -7276,7 +7276,7 @@ CUSTOM_NAME</ColNames>
       <Position>1</Position>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="1313" parent="89" name="TYPE_CODE">
       <Position>2</Position>
@@ -7526,7 +7526,7 @@ CUSTOM_NAME</ColNames>
       <Comment>主键</Comment>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="1365" parent="94" name="ROOM_ID">
       <Position>2</Position>
@@ -7870,7 +7870,7 @@ CUSTOM_NAME</ColNames>
       <Comment>区域ID</Comment>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="1434" parent="98" name="ARC_AREA_NAME">
       <Position>2</Position>
@@ -8219,7 +8219,7 @@ CUSTOM_NAME</ColNames>
       <Comment>主键</Comment>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="1507" parent="107" name="DJB_NAME">
       <Position>2</Position>
@@ -8962,7 +8962,7 @@ CUSTOM_NAME</ColNames>
       <Comment>标签编号</Comment>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="1668" parent="132" name="OPER_DATE">
       <Position>2</Position>
@@ -9532,7 +9532,7 @@ CUSTOM_NAME</ColNames>
       <Comment>主键</Comment>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="1789" parent="140" name="ROOM_ID">
       <Position>2</Position>
@@ -9599,7 +9599,7 @@ CUSTOM_NAME</ColNames>
       <Comment>主键</Comment>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="1802" parent="141" name="ROOM_ID">
       <Position>2</Position>
@@ -9787,7 +9787,7 @@ CUSTOM_NAME</ColNames>
       <Comment>区域ID</Comment>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="1836" parent="143" name="ARC_AREA_NAME">
       <Position>2</Position>
@@ -9825,7 +9825,7 @@ CUSTOM_NAME</ColNames>
       <Position>1</Position>
       <DataType>VARCHAR2(32 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="1842" parent="144" name="ORG_CODE">
       <Position>2</Position>
@@ -10131,7 +10131,7 @@ FIELD_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="1898" parent="147" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -10287,7 +10287,7 @@ EFILE_NAME</ColNames>
       <Comment>是否被加密</Comment>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="1924" parent="148" name="FILE_INDEX">
       <Position>21</Position>
@@ -10441,7 +10441,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="1953" parent="149" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -10584,7 +10584,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="1980" parent="150" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -10731,7 +10731,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2008" parent="151" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -10863,7 +10863,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2034" parent="152" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -11006,7 +11006,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2061" parent="153" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -11152,7 +11152,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2089" parent="154" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -11309,7 +11309,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2119" parent="155" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -11466,7 +11466,7 @@ EFILE_NAME</ColNames>
       <Comment>是否被加密</Comment>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2145" parent="156" name="FILE_CATEGORY">
       <Position>21</Position>
@@ -11619,7 +11619,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2174" parent="157" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -11762,7 +11762,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2201" parent="158" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -12044,7 +12044,7 @@ OBJECT_ID</ColNames>
       <Comment>是否被加密</Comment>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2248" parent="160" name="MODIFY_FLAG">
       <Position>21</Position>
@@ -12205,7 +12205,7 @@ EFILE_NAME</ColNames>
       <Comment>是否被加密</Comment>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2275" parent="161" name="FILE_INDEX">
       <Position>21</Position>
@@ -12354,7 +12354,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2303" parent="162" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -12669,7 +12669,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2368" parent="165" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -12815,7 +12815,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2396" parent="166" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -12954,7 +12954,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2423" parent="167" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -13100,7 +13100,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2451" parent="168" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -13243,7 +13243,7 @@ EFILE_NAME</ColNames>
       <Position>22</Position>
       <DataType>NUMBER(*)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>0 </DefaultExpression>
+      <DefaultExpression>0</DefaultExpression>
     </column>
     <column id="2478" parent="169" name="MODIFY_FLAG">
       <Position>23</Position>
@@ -14515,7 +14515,7 @@ EFILE_NAME</ColNames>
     </column>
     <column id="2733" parent="192" name="LGACCTST">
       <Position>25</Position>
-      <Comment>久悬状态 0  非久悬 1  久悬 </Comment>
+      <Comment>久悬状态 0  非久悬 1  久悬</Comment>
       <DataType>VARCHAR2(4 byte)|0s</DataType>
     </column>
     <column id="2734" parent="192" name="ISAPPD">
@@ -17813,17 +17813,17 @@ EFILE_NAME</ColNames>
     </column>
     <column id="3420" parent="227" name="OPENDT">
       <Position>89</Position>
-      <Comment>开户日期 </Comment>
+      <Comment>开户日期</Comment>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
     </column>
     <column id="3421" parent="227" name="BRCHNO">
       <Position>90</Position>
-      <Comment>开户机构  </Comment>
+      <Comment>开户机构</Comment>
       <DataType>VARCHAR2(10 byte)|0s</DataType>
     </column>
     <column id="3422" parent="227" name="CLOSDT">
       <Position>91</Position>
-      <Comment>销户日期  </Comment>
+      <Comment>销户日期</Comment>
       <DataType>VARCHAR2(20 byte)|0s</DataType>
     </column>
     <column id="3423" parent="227" name="IMG_ID">
@@ -17882,7 +17882,7 @@ EFILE_NAME</ColNames>
       <Comment>登记时间</Comment>
       <DataType>DATE|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sysdate </DefaultExpression>
+      <DefaultExpression>sysdate</DefaultExpression>
     </column>
     <column id="3433" parent="228" name="DEAL_FLAG">
       <Position>3</Position>
@@ -18527,7 +18527,7 @@ EFILE_NAME</ColNames>
       <Comment>1启用；2不启用</Comment>
       <DataType>NVARCHAR2(2 char)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>1 </DefaultExpression>
+      <DefaultExpression>1</DefaultExpression>
     </column>
     <column id="3567" parent="243" name="COMMENTS">
       <Position>6</Position>
@@ -22982,7 +22982,7 @@ EC_BNK_NO</ColNames>
     </column>
     <column id="4577" parent="275" name="SA_ACCT_CHAR">
       <Position>25</Position>
-      <Comment>帐户性质   </Comment>
+      <Comment>帐户性质</Comment>
       <DataType>VARCHAR2(4 byte)|0s</DataType>
     </column>
     <column id="4578" parent="275" name="SA_DRW_TYP">
@@ -23728,7 +23728,7 @@ EC_BNK_NO</ColNames>
     </column>
     <column id="4759" parent="277" name="SA_ACCT_CHAR">
       <Position>25</Position>
-      <Comment>帐户性质   </Comment>
+      <Comment>帐户性质</Comment>
       <DataType>VARCHAR2(4 byte)|0s</DataType>
     </column>
     <column id="4760" parent="277" name="SA_DRW_TYP">
@@ -25485,7 +25485,7 @@ VOUCHEECD</ColNames>
       <Comment>序号</Comment>
       <DataType>VARCHAR2(50 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="5176" parent="285" name="PIC_ID">
       <Position>2</Position>
@@ -46201,7 +46201,7 @@ GUARANTYID</ColNames>
       <Comment>录入问题时间戳，是重复扣分或加倍扣分依据（格式YYYY-mm-dd HH:mm:ss）</Comment>
       <DataType>VARCHAR2(19 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>TO_CHAR(SYSDATE,&apos;YYYY-MM-DD HH24:MI:SS&apos;) </DefaultExpression>
+      <DefaultExpression>TO_CHAR(SYSDATE,&apos;YYYY-MM-DD HH24:MI:SS&apos;)</DefaultExpression>
     </column>
     <column id="9830" parent="332" name="IS_MARK">
       <Position>12</Position>
@@ -46697,10 +46697,10 @@ ROLE_ID</ColNames>
     </key>
     <column id="9931" parent="339" name="BATCH_NO">
       <Position>1</Position>
-      <Comment>审计系统的项目id，运营、信贷平台的问题归属时间。格式：20121221 </Comment>
+      <Comment>审计系统的项目id，运营、信贷平台的问题归属时间。格式：20121221</Comment>
       <DataType>VARCHAR2(30 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>TO_CHAR(SYSDATE,&apos;YYYYMMDD&apos;) </DefaultExpression>
+      <DefaultExpression>TO_CHAR(SYSDATE,&apos;YYYYMMDD&apos;)</DefaultExpression>
     </column>
     <column id="9932" parent="339" name="BATCH_NAME">
       <Position>2</Position>
@@ -47004,7 +47004,7 @@ ROLE_ID</ColNames>
       <Position>3</Position>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="9996" parent="345" name="DATA_TYPE">
       <Position>4</Position>
@@ -47713,7 +47713,7 @@ ROLE_ID</ColNames>
       <Comment>主键</Comment>
       <DataType>VARCHAR2(36 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>sys_guid() </DefaultExpression>
+      <DefaultExpression>sys_guid()</DefaultExpression>
     </column>
     <column id="10159" parent="356" name="TIME">
       <Position>2</Position>
@@ -48884,7 +48884,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="10429" parent="367" name="OBJECT_YE">
       <Position>19</Position>
@@ -49002,7 +49002,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="10451" parent="368" name="OBJECT_YE">
       <Position>19</Position>
@@ -49400,7 +49400,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <index id="10529" parent="371" name="DJB_014_PK">
       <ObjectId>75167</ObjectId>
@@ -49528,7 +49528,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="10553" parent="372" name="EDIT_STATUS">
       <Position>23</Position>
@@ -49649,7 +49649,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <index id="10577" parent="373" name="DJB_016_PK">
       <ObjectId>75170</ObjectId>
@@ -49777,7 +49777,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="10601" parent="374" name="EDIT_STATUS">
       <Position>23</Position>
@@ -49913,7 +49913,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="10628" parent="375" name="CLRQ">
       <Position>26</Position>
@@ -50065,7 +50065,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="10657" parent="376" name="CLRQ">
       <Position>26</Position>
@@ -50195,7 +50195,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="10683" parent="377" name="SEARCH_ORG_NUM">
       <Position>23</Position>
@@ -50347,7 +50347,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="10712" parent="378" name="SEARCH_ORG_NUM">
       <Position>23</Position>
@@ -50517,7 +50517,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="10746" parent="379" name="OUT_PERSON">
       <Position>28</Position>
@@ -50546,7 +50546,7 @@ ETL_DT</ColNames>
     </column>
     <column id="10751" parent="379" name="OUT_INFO">
       <Position>33</Position>
-      <Comment>转出处理情况:处理记录  </Comment>
+      <Comment>转出处理情况:处理记录</Comment>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
     </column>
     <column id="10752" parent="379" name="DEAL_DESC">
@@ -51071,7 +51071,7 @@ ETL_DT</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="10871" parent="382" name="OUT_PERSON">
       <Position>28</Position>
@@ -51100,7 +51100,7 @@ ETL_DT</ColNames>
     </column>
     <column id="10876" parent="382" name="OUT_INFO">
       <Position>33</Position>
-      <Comment>转出处理情况:处理记录  </Comment>
+      <Comment>转出处理情况:处理记录</Comment>
       <DataType>VARCHAR2(40 byte)|0s</DataType>
     </column>
     <column id="10877" parent="382" name="DEAL_DESC">
@@ -51776,7 +51776,7 @@ GS_ZHKH</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="11018" parent="387" name="DEAL_OPR">
       <Position>26</Position>
@@ -51953,7 +51953,7 @@ GS_ZHKH</ColNames>
       <Comment>êy?Yμ?×′ì?(????è?μ?êy?Yμ?×′ì??a00)</Comment>
       <DataType>VARCHAR2(3 byte)|0s</DataType>
       <NotNull>1</NotNull>
-      <DefaultExpression>&apos;00&apos; </DefaultExpression>
+      <DefaultExpression>&apos;00&apos;</DefaultExpression>
     </column>
     <column id="11052" parent="388" name="DEAL_OPR">
       <Position>26</Position>
