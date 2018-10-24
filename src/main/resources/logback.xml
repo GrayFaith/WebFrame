@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <configuration scan="true" scanPeriod="60 seconds" debug="false">
-
     <contextName>WebFrame</contextName>
-    <!--日志存放的路径,默认为TomCat下面的logs-->
-    <property name="USER_HOME" value="D:/LogBack/Log"/>
 
     <!--输出到窗口-->
     <appender name="SystemOut" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>[%thread]%date{HH:mm:ss.SSS}-%-5level%logger->%method:%msg%n</pattern>
+            <pattern>
+                [%thread]%d{HH:mm:ss.SSS}-%highlight(%-5level) %logger%cyan(@%method):%highlight(%msg) %n
+            </pattern>
         </encoder>
         <target>System.out</target>
     </appender>
@@ -29,7 +28,7 @@
         </rollingPolicy>
         <encoder>
             <pattern>
-                [%thread]%date{HH:mm:ss.SSS}-%-5level%logger->%method:%msg%n
+                [%thread]%d{HH:mm:ss.SSS}-%highlight(%-5level) %logger%cyan(@%method):%highlight(%msg) %n
             </pattern>
         </encoder>
     </appender>

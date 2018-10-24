@@ -34,14 +34,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="jdk" jdkName="JDK8" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="Jdk8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="groovy-3.0.0-alpha-3" level="application" />
-    <orderEntry type="library" exported="" name="Spring-4.3.18.RELEASE" level="application" />
-    <orderEntry type="library" exported="" name="spring-security-aspects-4.2.8.RELEASE" level="application" />
-    <orderEntry type="library" exported="" name="Spring-4.3.18.RELEASE" level="application" />
-    <orderEntry type="library" exported="" name="spring-security-aspects-4.2.8.RELEASE" level="application" />
-    <orderEntry type="library" exported="" name="Spring-4.3.18.RELEASE" level="application" />
+    <orderEntry type="library" name="SpringSecurity4.2.8" level="application" />
+    <orderEntry type="library" name="Spring4.3" level="application" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.18" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.2.3" level="project" />

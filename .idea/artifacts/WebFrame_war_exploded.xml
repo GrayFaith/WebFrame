@@ -8,20 +8,13 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="application" name="groovy-3.0.0-alpha-3" />
-          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.18" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.18.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.18.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.3.18.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.18.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.18.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.18.RELEASE" />
-          <element id="library" level="application" name="spring-security-aspects-4.2.8.RELEASE" />
-          <element id="library" level="application" name="Spring-4.3.18.RELEASE" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
           <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="application" name="SpringSecurity4.2.8" />
+          <element id="library" level="application" name="Spring4.3" />
         </element>
       </element>
       <element id="directory" name="META-INF">
